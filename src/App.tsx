@@ -1,8 +1,14 @@
-import React, { useState, useCallback, useRef } from "react";
 import "./App.css";
+import Game from "./components/Game";
+import Info from './components/Info'
 
 const App = () => {
-  return <div>hello world</div>;
+  return (
+    <div className="container">
+      <Game />
+      {/* <Info /> */}
+    </div>
+  );
 };
 
 export default App;
