@@ -122,6 +122,7 @@ const Game = () => {
           className="btn1"
           onClick={() => {
             setGrid(emptyGrid());
+            setrunning(!running);
           }}
         >
           clear
