@@ -122,7 +122,7 @@ const Game = () => {
           className="btn1"
           onClick={() => {
             setGrid(emptyGrid());
-            setrunning(!running);
+            setRunning(!running);
           }}
         >
           clear
@@ -133,3 +133,4 @@ const Game = () => {
 };
 
 export default Game;
+
