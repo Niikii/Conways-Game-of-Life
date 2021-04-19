@@ -1,8 +1,8 @@
 import produce from "immer";
 import { useState, useCallback, useRef } from "react";
 
-const numCols = 60;
-const numRows = 50;
+const numCols = 40;
+const numRows = 30;
 
 const operations = [
   [0, 1],
@@ -133,4 +133,3 @@ const Game = () => {
 };
 
 export default Game;
-
